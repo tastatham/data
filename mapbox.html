@@ -84,7 +84,7 @@
 <style> 
 
 .legend {
-      background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 3px;
 	border-style: solid;
     border-width: 5px;
@@ -96,7 +96,7 @@
     position: absolute;
     right: 10px;
     z-index: 1;
-	opacity = 0.5;
+    opacity = 0.5;
 
 }
 
@@ -131,20 +131,25 @@
 
 <style> 
 #title {
-            position: absolute;
-			box-shadow: 0 1px 2px rgba(0,0,0,0.10);
-			border-radius: 3px;
-			opacity: 1;
-            top: 15px;
-            left: 20px;
-            width: 350px;
-            overflow: auto;
-            background: #fff;
-            font-family: "Arial";
-            padding-left: 20px;
-			padding-right: 20px;
-			padding-bottom: 15px;
-			border-radius: 3px;
+	position: absolute;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+	border-radius: 3px;
+	opacity: 1;
+        top: 15px;
+        left: 20px;
+        width: 350px;
+        overflow: auto;
+        background: rgba(255, 255, 255, 0.5);
+	
+	border-radius: 3px;
+	border-style: solid;
+        border-width: 5px;
+	border-color: #1da1ab;
+        font-family: "Arial";
+        padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	border-radius: 3px;
         }
 </style>
 
@@ -156,12 +161,12 @@
     <div><span style='background: rgba(244, 109, 67, 0.7)'><b>3rd<b/></span></div>
     <div><span style='background: rgba(253, 174, 97, 0.7)'><b>4th<b/></span></div>
     <div><span style='background: rgba(254, 224, 139, 0.7)'><b>5th<b/></span></div>
-	<div><span style='background: rgba(217, 239, 139, 0.7)'>6th<b/></span></div>
-	<div><span style='background: rgba(166, 217, 106, 0.7)'><b>7th<b/></span></div>
-	<div><span style='background: rgba(102, 189, 99, 0.7)'><b>8th<b/></span></div>
-	<div><span style='background: rgba(26, 152, 80, 0.7)'><b>9th<b/></span></div>
-	<div><span style='background: rgba(0, 104, 55, 0.7)'><b>Least Deprived Decile<b/></span></div>
-	<small>Source: <a href="https://data.cdrc.ac.uk/dataset/cdrc-english-indices-of-deprivation-2015-geodata-pack-liverpool-e08000012">Consumer Data Research Centre</a></small>
+    <div><span style='background: rgba(217, 239, 139, 0.7)'>6th<b/></span></div>
+    <div><span style='background: rgba(166, 217, 106, 0.7)'><b>7th<b/></span></div>
+    <div><span style='background: rgba(102, 189, 99, 0.7)'><b>8th<b/></span></div>
+    <div><span style='background: rgba(26, 152, 80, 0.7)'><b>9th<b/></span></div>
+    <div><span style='background: rgba(0, 104, 55, 0.7)'><b>Least Deprived Decile<b/></span></div>
+    <small>Source: <a href="https://data.cdrc.ac.uk/dataset/cdrc-english-indices-of-deprivation-2015-geodata-pack-liverpool-e08000012">Consumer Data Research Centre</a></small>
 </div>
 
 <!-- Map ID -->
@@ -189,9 +194,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidGFzdGF0aGFtMSIsImEiOiJjamZ1ejY2bmYxNHZnMnhxb
     style: 'mapbox://styles/tastatham1/cjg3vyld813id2spdnhy4sf9u', //user generated style from Mapbox
     center: [-2.981979, 53.406315], // Set Zoom centre point
     zoom: 10.9, // Sets automatic zoom
-	minZoom: 10.9, // Sets min zoom
+    minZoom: 10.9, // Sets min zoom
     maxZoom: 15, // Sets max zoom
-	maxBounds: bounds // Sets bounds as max
+    maxBounds: bounds // Sets bounds as max
 });
 
 
